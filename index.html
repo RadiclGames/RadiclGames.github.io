@@ -49,7 +49,7 @@
 
       <br>
 
-     <p style="font-size: 180%">Now you can download the Alpha of Radical's Warefare Redemtion.</p>
+     <p style="font-size: 180%">Now you can download the Alpha of Radicl's Warefare Redemtion.</p>
 
      <p>
      Warefare Redemtion is a FPS online multiplayer game, where you can play cross platform (between MAC and Windows).<br><br>
