@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko:700&display=swap" rel="stylesheet">
+    <style>
+      html{
+        height: 100%;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        font-family: 'Teko', sans-serif;
+        background-color: #248017;
+        height: 100%;
+        display: grid;
+      }
+
+      #p5_loading{
+        position: relative;
+        margin: auto;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-size: 5vw;
+        border-radius: 50%;
+        border: solid white .15vw;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-right: solid rgba(255, 255, 255, 0.1) .15vw;
+        border-left: solid rgba(255, 255, 255, 0.1) .15vw;
+        animation: spin 1s infinite ease-in-out;
+      }
+
+      @keyframes spin{
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script src="../p5/p5.js"></script>
+    <script src="../p5/addons/p5.dom.js"></script>
+    <script src="../p5/addons/p5.sound.js"></script>
+  </head>
+  <body>
+    <div id="p5_loading">
+
+    </div>
+    <script src="sketch.js"></script>
+    <script src="powerUpSteroids.js"></script>
+    <script src="powerUpStrong.js"></script>
+    <script src="spiller.js"></script>
+    <script src="spiller2.js"></script>
+    <script src="fotball.js"></script>
+    <script src="midCircle.js"></script>
+    <script src="fotballMaal.js"></script>
+  </body>
+</html>
